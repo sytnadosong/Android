@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/gradientbackground"
+    android:layout_height="match_parent">
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="50dp"
+        android:text="로그인"
+        android:id="@+id/tv_login"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="40sp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ll_id"
+        android:layout_below="@id/tv_login">
+        <TextView
+            android:layout_marginLeft="50dp"
+            android:layout_width="match_parent"
+            android:layout_alignParentLeft="true"
+            android:text="ID"
+            android:textColor="#ffffff"
+            android:textSize="30sp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_marginRight="50dp"
+            android:layout_width="match_parent"
+            android:background="#ffdd00"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ll_pw"
+        android:layout_below="@id/ll_id">
+        <TextView
+            android:layout_marginLeft="50dp"
+            android:layout_width="match_parent"
+            android:id="@+id/tv_pwd"
+            android:layout_alignParentLeft="true"
+            android:text="패스워드"
+            android:textColor="#ffffff"
+            android:textSize="30sp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_marginRight="50dp"
+            android:id="@+id/ed2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffdd00"
+            android:textSize="25sp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_pw">-->
+
+        <Button
+            android:layout_marginLeft="188dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="로그인"
+            android:id="@+id/bt"
+            android:layout_below="@id/ll_pw"
+            android:textSize="15sp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ll_pw"
+            android:layout_toRightOf="@id/bt"
+            android:text="취소"
+            android:textSize="15sp"/>
+    <!--</LinearLayout>-->
+
+
+
+</RelativeLayout>

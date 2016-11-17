@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sds.study.recordapp.MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_height="0dp">
+        <Button
+            android:layout_width="0dp"
+            android:text="A"
+            android:layout_weight="1"
+            android:id="@+id/A"
+            android:background="@android:color/holo_red_light"
+            android:layout_height="match_parent"
+            android:onClick="btnClick"/>
+        <Button
+            android:layout_width="0dp"
+            android:text="B"
+            android:layout_weight="1"
+            android:id="@+id/B"
+            android:background="#FF0"
+            android:layout_height="match_parent"
+            android:onClick="btnClick"/>
+        <Button
+            android:layout_width="0dp"
+            android:text="C"
+            android:layout_weight="1"
+            android:id="@+id/C"
+            android:background="@android:color/holo_blue_light"
+            android:layout_height="match_parent"
+            android:onClick="btnClick"/>
+
+    </LinearLayout>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_weight="6"
+        android:layout_height="0dp"></android.support.v4.view.ViewPager>
+</LinearLayout>

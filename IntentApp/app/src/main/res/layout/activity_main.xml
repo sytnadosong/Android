@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.sds.study.intentapp.MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:text="전화 다이얼 패드 호출"
+        android:onClick="bt1"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="wrap_content"
+        android:text="검색창 띄우기"
+        android:onClick="bt2"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="wrap_content"
+        android:text="구글 맵 띄워보기"
+        android:onClick="bt3"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="wrap_content"
+        android:text="전화걸기"
+        android:onClick="bt4"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="wrap_content"
+        android:text="음악파일재생하기"
+        android:onClick="bt5"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="wrap_content"
+        android:text="브라우저 호출"
+        android:onClick="bt6"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="wrap_content"
+        android:text="이메일 발송"
+        android:onClick="bt7"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="wrap_content"
+        android:text="문자                                                                                                                           발송"
+        android:onClick="bt8"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

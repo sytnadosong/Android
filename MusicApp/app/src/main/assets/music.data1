@@ -1,0 +1,35 @@
+{
+  "musicList":[
+    {
+      "title":"ahchoo",
+      "artist":"lovelyz",
+      "filename":"ahchoo_lovelyz.mp3"
+    },
+    {
+      "title":"beautifulwelfare",
+      "artist":"ohyuk",
+      "filename":"beautifulwelfare_ohyuk.mp3"
+    },
+    {
+      "title":"shape of my heart",
+      "artist":"sting",
+      "filename":"leong.mp3"
+    },
+    {
+      "title":"moonrise",
+      "artist":"lovelyz",
+      "filename":"moonrise_lovelyz.mp3"
+    },
+    {
+      "title":"napal",
+      "artist":"psy",
+      "filename":"napal.mp3"
+    },
+    {
+      "title":"road",
+      "artist":"psy",
+      "filename":"road.mp3"
+    }
+  ]
+}
+

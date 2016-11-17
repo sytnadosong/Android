@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/beachview">
+
+    <HorizontalScrollView
+        android:layout_width="190dp"
+        android:layout_height="270dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:src="@drawable/pic0"
+                android:layout_width="190dp"
+                android:layout_height="270dp" />
+
+            <ImageView
+                android:src="@drawable/pic1"
+                android:layout_width="190dp"
+                android:layout_height="270dp" />
+
+            <ImageView
+                android:src="@drawable/pic2"
+                android:layout_width="190dp"
+                android:layout_height="270dp" />
+
+            <ImageView
+                android:src="@drawable/pic3"
+                android:layout_width="190dp"
+                android:layout_height="270dp" />
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+</LinearLayout>
+

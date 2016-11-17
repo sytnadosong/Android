@@ -1,0 +1,26 @@
+<!--히어로명, 이미지, 전투력을 표현한 레이아웃-->
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:text="아이언맨"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_below="@id/name"
+        android:layout_width="wrap_content"
+        android:src="@drawable/img1"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_below="@id/img"
+        android:text="3600"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sds.study.movieapp">
+
+    <!-- 이 태그가 갖는 기능 2가지
+        - 개발자 입장: 외부 저장소 접근권한 취득
+        - 사용자 입장 : 앱 다운시 이 앱이 어떤 권한을 갖는지를 공지받음(이러한 이유로 런타임시
+        기능별로 권한을 묻고 접근하는 것이 좋음)
+    -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".DetailActivity">
+
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--<com.example.student.musicapp.MusicItem
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        </com.example.student.musicapp.MusicItem>
+         메모리 효율성을 직접 만들어 고생하지 말고, AdapterView를 이용하자-->
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+
+
+</LinearLayout>
